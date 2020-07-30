@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(file:///home/antiall1497/Навигация/img/1920x1080_forest-green-aerial-view-trees-treetops.jpg) no-repeat;
+    bottom:0;
+}
+
+
+a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: brown;
+    color: #ffffff;
+}
+
+.headerSection {
+    display: flex;
+    align-items: center;
+}
+
+.headerItem {
+    display: flex;
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+
+.headerItem:hover {
+    background-color: #FF9900;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.headerButton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1054px) {
+
+.headerItem {
+    flex-direction: column;
+
+}
+.headerSection{
+    flex-direction: column;
+}
+}
